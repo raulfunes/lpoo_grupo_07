@@ -5,9 +5,10 @@ using System.Text;
 
 namespace ClasesBase
 {
-    class Inquilino
+    public class Inquilino
     {
         int inq_Codigo;
+        int cont = 0;
 
         public int Inq_Codigo
         {
@@ -28,12 +29,21 @@ namespace ClasesBase
             get { return inq_Nombre; }
             set { inq_Nombre = value; }
         }
-        string inq_Teledono;
+        string inq_Telefono;
 
-        public string Inq_Teledono
+        public string Inq_Telefono
         {
-            get { return inq_Teledono; }
-            set { inq_Teledono = value; }
+            get { return inq_Telefono; }
+            set { inq_Telefono = value; }
+        }
+
+
+        public Inquilino(string apellido, string nombre, string telefono){
+            Inq_Codigo += cont;
+            cont++;
+            Inq_Apellido = apellido;
+            Inq_Nombre = nombre;
+            Inq_Telefono = telefono;
         }
     }
 }

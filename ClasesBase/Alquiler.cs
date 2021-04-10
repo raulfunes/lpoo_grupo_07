@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClasesBase
 {
-    class Alquiler
+    public class Alquiler
     {
         int alq_Codigo;
         DateTime alq_Fecha;

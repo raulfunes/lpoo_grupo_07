@@ -5,42 +5,53 @@ using System.Text;
 
 namespace ClasesBase
 {
-    class Uusario
+    public class Usuario
     {
-        int usu_ID;
-
+        private int usu_ID;
         public int Usu_ID
         {
             get { return usu_ID; }
             set { usu_ID = value; }
         }
-        string usu_NombreUsuario;
 
+        private string usu_NombreUsuario;
         public string Usu_NombreUsuario
         {
             get { return usu_NombreUsuario; }
             set { usu_NombreUsuario = value; }
         }
-        string usu_Contraseña;
 
-        public string Usu_Contraseña
+        private string usu_Password;
+        public string Usu_Password
         {
-            get { return usu_Contraseña; }
-            set { usu_Contraseña = value; }
+            get { return usu_Password; }
+            set { usu_Password = value; }
         }
-        string usu_ApellidoNombre;
 
+        private string usu_ApellidoNombre;
         public string Usu_ApellidoNombre
         {
             get { return usu_ApellidoNombre; }
             set { usu_ApellidoNombre = value; }
         }
-        int rol_codigo;
-
+       
+        private int rol_codigo;
         public int Rol_codigo
         {
             get { return rol_codigo; }
             set { rol_codigo = value; }
         }
+
+
+
+        public Usuario(string nombre, string password) {
+            Usu_NombreUsuario = nombre;
+            Usu_Password = password;
+        }
+
+
+
     }
+
+    
 }

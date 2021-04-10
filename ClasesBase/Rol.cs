@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ClasesBase
 {
-    class Rol
+    public class Rol
     {
         int rol_Codigo;
 

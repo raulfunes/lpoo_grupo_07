@@ -28,11 +28,11 @@
       <FileName>Rol.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClasesBase.Uusario">
+  <Class Name="ClasesBase.Usuario">
     <Position X="6.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAEAACAAAEAAAABBAgAAASCAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Uusario.cs</FileName>
+      <FileName>Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
